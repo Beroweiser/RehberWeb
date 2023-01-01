@@ -1,5 +1,13 @@
-var builder = WebApplication.CreateBuilder(args);
+using Microsoft.EntityFrameworkCore;
+using RehberWeb.Models.Context;
+using RehberWeb.Models.Mapping;
 
+var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<RehberDbContext>(opt =>
+{
+    opt.UseSqlServer(builder.Configuration.GetConnectionString("SqlServer"));
+});
+builder.Services.AddAutoMapper(typeof(MappingProfile).Assembly);
 // Add services to the container.
 
 builder.Services.AddControllers();
