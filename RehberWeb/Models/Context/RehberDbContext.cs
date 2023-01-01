@@ -9,7 +9,7 @@ namespace RehberWeb.Models.Context
         {
         }
         public DbSet<Rehber> Rehbers { get; set; }
-        public DbSet<IletisimBilgileri> IletisimBilgileris { get; }
+        public DbSet<IletisimBilgileri> IletisimBilgileris { get; set; }
 
     }
 }

@@ -19,11 +19,10 @@ namespace RehberWeb.Controllers
         [HttpPost]
         public async Task<IActionResult> Post(IletisimBilgileri iletisimBilgileri)
         {
+
+            Rehber rehber = await _context.Rehbers.Include(p=> p.IletisimBilgileri).FirstAsync(p=> p.Id == iletisimBilgileri.RehberId);
             await _context.IletisimBilgileris.AddAsync(iletisimBilgileri);
             await _context.SaveChangesAsync();
-
-            Rehber rehber = await _context.Rehbers.Include(p => p.IletisimBilgileri).FirstAsync(p=> p.Id == iletisimBilgileri.RehberId);
-
 
             return Ok(rehber);
         }

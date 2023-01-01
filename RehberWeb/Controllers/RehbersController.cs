@@ -12,6 +12,7 @@ namespace RehberWeb.Controllers
     [ApiController]
     public class RehbersController : ControllerBase
     {
+        
         private readonly RehberDbContext _context;
         private readonly IMapper _mapper;
         public RehbersController(RehberDbContext context, IMapper mapper)
@@ -44,14 +45,14 @@ namespace RehberWeb.Controllers
             Rehber rehber = await _context.Rehbers.FindAsync(id);
             _context.Rehbers.Remove(rehber);
             await _context.SaveChangesAsync();
-            return Ok("Slme işlemi başarılı");
+            return Ok("Silme işlemi başarılı");
 
         }
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            List<Rehber> rehbers = await _context.Rehbers.Include(p => p.IletisimBilgileri).ToListAsync();
-            return Ok(rehbers);
+            List<Rehber> rehbers = await _context.Rehbers.Include(p=> p.IletisimBilgileri).ToListAsync();
+            return Ok(rehbers); 
         }
     }
 }

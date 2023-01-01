@@ -6,6 +6,6 @@
         public string Ad { get; set; }
         public string Soyad { get; set; }
         public string Firma { get; set;}
-        public ICollection<IletisimBilgileri> IletisimBilgileri { get;}
+        public ICollection<IletisimBilgileri> IletisimBilgileri { get; }
     }
 }
