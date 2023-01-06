@@ -45,12 +45,12 @@ her get işlemi yapıldığında daha önceki tüm rapor isteklerini return etti
 Ve herhangi bir eror almadan sistem çalışır hale getirildi 
 ### Çalıştığına dair görüntüler
 
-![RehberWeb çalıştırıldığındaki görüntü](WhatsApp Image 2023-01-06 at 12.08.15.jpeg)
-![Rehber post işlemi ](WhatsApp Image 2023-01-06 at 12.14.28.jpeg)
-![iletişimbilgileri post işlemi](WhatsApp Image 2023-01-06 at 12.12.20.jpeg)
-![Rehber get işlemi](WhatsApp Image 2023-01-06 at 12.15.09.jpeg)
-![girilen id deki kişi silindi ](WhatsApp Image 2023-01-06 at 12.15.41.jpeg)
-![Put işlemi girelen id deki bilgileri değiştirme](WhatsApp Image 2023-01-06 at 12.17.13.jpeg)
-![iletişim bilgileri silinebilir](WhatsApp Image 2023-01-06 at 12.20.29.jpeg)
-![Rapor alma işlemi](WhatsApp Image 2023-01-06 at 15.01.41.jpeg)
-![Rapor almaişlemi devamı nekadar çok rapor alındıysa liste okadar büyüyor ve hepsi görünür halde](WhatsApp Image 2023-01-06 at 15.02.21.jpeg)
+![RehberWeb çalıştırıldığındaki görüntü](https://github.com/Beroweiser/RehberWeb/blob/master/WhatsApp%20Image%202023-01-06%20at%2012.08.15.jpeg)
+![Rehber post işlemi ](https://github.com/Beroweiser/RehberWeb/blob/master/WhatsApp%20Image%202023-01-06%20at%2012.14.28.jpeg)
+![iletişimbilgileri post işlemi](https://github.com/Beroweiser/RehberWeb/blob/master/WhatsApp%20Image%202023-01-06%20at%2012.12.20.jpeg)
+![Rehber get işlemi](https://github.com/Beroweiser/RehberWeb/blob/master/WhatsApp%20Image%202023-01-06%20at%2012.15.09.jpeg)
+![girilen id deki kişi silindi ](https://github.com/Beroweiser/RehberWeb/blob/master/WhatsApp%20Image%202023-01-06%20at%2012.15.41.jpeg)
+![Put işlemi girelen id deki bilgileri değiştirme](https://github.com/Beroweiser/RehberWeb/blob/master/WhatsApp%20Image%202023-01-06%20at%2012.17.13.jpeg)
+![iletişim bilgileri silinebilir](https://github.com/Beroweiser/RehberWeb/blob/master/WhatsApp%20Image%202023-01-06%20at%2012.20.29.jpeg)
+![Rapor alma işlemi](https://github.com/Beroweiser/RehberWeb/blob/master/WhatsApp%20Image%202023-01-06%20at%2015.01.41.jpeg)
+![Rapor almaişlemi devamı nekadar çok rapor alındıysa liste okadar büyüyor ve hepsi görünür halde](https://github.com/Beroweiser/RehberWeb/blob/master/WhatsApp%20Image%202023-01-06%20at%2015.02.21.jpeg)
