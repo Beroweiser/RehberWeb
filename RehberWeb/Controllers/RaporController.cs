@@ -35,7 +35,7 @@ namespace RehberWeb.Controllers
             var rapor = new Rapor
             {
                 Raporun_Talep_Edildiği_Tarih = DateTime.Now.ToString("dd/MM/yyyy"),
-                Raporun_Durumu = "Talep Edildi",
+                Raporun_Durumu = "Tamamlandı",
                 Data = data.OrderBy(p => p.KisiSayisi).ToList()
             };
             _context.Rapors.Add(rapor);
