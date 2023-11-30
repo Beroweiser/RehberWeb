@@ -1,13 +1,8 @@
 # RehberWeb
 ## Merhaba
-proje [https://github.com/setur/assessment-backend-net](https://github.com/setur/assessment-backend-net) 
-adresinden alındı ve gerekli tüm aşamaların tasarımı ve kodu yazıldı.
-
 Bu proje microsoft visual studio ortamında yazıldı ve çalıştırıldı. Proje bitiminde herhangi bir eror ile karşılaşılmadı
 
 ### Projeye giriş
- 
-istenilenler doğrultusunda 
 
 Microsoft Visual Studio da ASP.NET CORE WEB API projesi açıldı ve aşağıda belirttiğim ilgili paketler kuruldu
 
@@ -45,7 +40,7 @@ IletişimBilgileriController da yalnızca post ve delete işlemleri yapıldı
 Rapor kısmı en çok kafamın karıştığı yerdi istenileni doğru bir şekilde yaptığımı düşünüyorum 
 RaporControllerda yanlızca get işlemi gerçekleşti ve asenkron olarak gerçekleştirildi 
 method içerisinde iletişimbilgileri konuma göre listeledim ve aynı konumdaki kişi sayısını ve var ise telefon numaralarının sayısını 
-RaporData da tuttum 
+RaporData da tuttum
 daha sonra Rapor mapleme yaptım raporun talep edildiği tarih rapor durumu ve rapordata daki verileri ekledim
 Sistemin oluşturduğu raporların listelenmesi
 Sistemin oluşturduğu bir raporun detay bilgilerinin getirilmesi isteklerini karşılamak için 
